@@ -4,10 +4,6 @@ body {
 
 li {
   list-style: none;
-  float: left;
-  /* 上下のpaddingを33px、左右のpaddingを20pxにしてください */
-  padding:33px 20px;
-  
 }
 
 .header {
@@ -19,17 +15,51 @@ li {
 .header-logo {
   float: left;
   font-size: 36px;
-  /* 上下のpaddingを20px、左右のpaddingを40pxにしてください */
-  padding:20px 40px;
-  
+  padding: 20px 40px;
+}
+
+.header-list li {
+  float: left;
+  padding: 33px 20px;
 }
 
 .main {
-  background-color: #bdf7f1;
-  height: 600px;
+  /* 上下のpaddingを100px、左右のpaddingを80pxにしてください */
+  padding :100px 80px;
+  
+}
+
+/* copy-containerの中のh1のfont-sizeを指定してください */
+.copy-container h1 {
+  font-size:140px;
+}
+
+/* copy-containerの中のh2のfont-sizeを指定してください */
+.copy-container h2 {
+  font-size:60px;
+}
+
+/* copy-containerの中のspanの色を指定してください */
+.copy-container span {
+  color:#ff4a4a;
 }
 
 .footer {
-  background-color: #ceccf3;
-  height: 270px;
+  background-color: #2f5167;
+  color: #fff;
+  height: 120px;
+  padding: 40px;
+}
+
+.footer-logo {
+  float: left;
+  font-size: 32px;
+}
+
+.footer-list {
+  float: right;
+}
+
+.footer-list li {
+  padding-bottom: 20px;
 }
